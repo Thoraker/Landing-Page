@@ -1,0 +1,164 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+section {
+  padding: 0 400px;
+}
+
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-size: 18px;
+  color: #e5e7eb;
+  padding-bottom: 100px;
+}
+
+.hero > nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  margin-bottom: 60px;
+}
+
+.hero > nav > h3 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.hero > nav > .links {
+  display: flex;
+  gap: 20px;
+}
+
+.hero > nav > .links > a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.hero > .hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+}
+
+.hero > .hero-content > .hero-text {
+  display: flex;
+  flex-direction: column;
+  margin: 0 100px 0 0;
+}
+
+.hero > .hero-content > .hero-text > h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  margin-bottom: 0;
+  margin: 0;
+}
+
+.hero > .hero-content > .hero-text > button {
+  background-color: #3882f6;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 20px;
+  width: 120px;
+  height: 40px;
+}
+
+.hero > .hero-content > img {
+  width: 500px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.info > h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  margin-top: 50px;
+}
+
+.info > .subtext {
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  padding: 0 300px;
+}
+
+.info > .subtext > div > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border: 5px solid #3882f6;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 100px 700px;
+}
+
+.quote > .quote-text {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 36px;
+  color: #1f2937;
+  margin: 0;
+}
+
+.quote > p {
+  text-align: right;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.action > .action-text {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #3882f6;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  padding: 20px 100px;
+  width: 1000px;
+}
+
+.action > div > button {
+  background-color: #3882f6;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: white 2px solid;
+  padding: 5px 20px;
+  width: 120px;
+  height: 40px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 20px;
+}
